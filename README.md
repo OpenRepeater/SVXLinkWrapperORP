@@ -33,6 +33,8 @@ Quick setup on Debian
     git clone https://github.com/OpenRepeater/SVXLinkWrapperORP.git
     cd SVXLinkWrapperORP
     python src/SvxLinkWrapper.py
+    
+    To update remote change: from within folder SVXLinkWrapperORP, type "git pull"
 
 
 How to configure QSO logger module
