@@ -1,6 +1,7 @@
-SVXLinkWrapperORP - wrapper for SvxLink
+SVXLinkWrapperORP
 ====================================
-By Guy Sheffer 4Z7GAI <guysoft at gmail dot com>
+Wrapper for SVXLink with customizations for OpenRepeater Project
+**Based upon code by Guy Sheffer 4Z7GAI**
 
 Features
 --------
@@ -11,37 +12,31 @@ Features
 
 Requirements
 ------------
-1. python
-2. python modules:     importlib python-sqlite3
-3. SVXLink ready to run and configured
+1. OpenRepeater Project pkgs install
+2. SVXLink pkgs
+3. python
+4. python modules: importlib python-sqlite
 
-Install all requirements except SVXLink on Ubuntu / Debian
+Install all requirements except SVXLink on Debian
 ----------------------------------------------------------
 
 ::
     
-    apt-get install python-sqlite3
+    apt-get install python-sqlite
 
 
 
-Quick setup on Ubuntu / Debian
+Quick setup on Debian
 ------------------------------
 ::
     
-    git clone https://github.com/guysoft/SvxLinkWrapper.git
-    cd SvxLinkWrapper
-    cp config.ini.example to config.ini
+    git clone https://github.com/OpenRepeater/SVXLinkWrapperORP.git
+    cd SVXLinkWrapperORP
     python src/SvxLinkWrapper.py
-
-
-How to configure and run
-------------------------
-1. copy config.ini.example to config.ini
-2. Set the variables according to your need in main
 
 
 How to configure QSO logger module
 -----------------------------------
 1. set DATABASE_PATH in modules.EcholinkLoggerModule to the location of EcholinkQsoLog.sqlite
 2. Make sure the folder that EcholinkQsoLog.sqlite has read/write permissions, as well as the file
-3. If you want to view latest qsos from a browser you can move ``www/EcholinkQsoLog.php`` to a location on your webserver (on Ubuntu / Debian the default path is ``/vart/www`` )
+3. If you want to view latest qsos from a browser you can move ``www/EcholinkQsoLog.php`` to a location on your webserver (on Ubuntu / Debian the default path is ``/var/www`` )
