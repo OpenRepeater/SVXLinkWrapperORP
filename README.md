@@ -1,4 +1,4 @@
-SvxLinkWrapper - wrapper for SvxLink
+SVXLinkWrapperORP - wrapper for SvxLink
 ====================================
 By Guy Sheffer 4Z7GAI <guysoft at gmail dot com>
 
@@ -13,9 +13,9 @@ Requirements
 ------------
 1. python
 2. python modules:     importlib python-sqlite3
-3. Svxlink ready to run and configured (https://sourceforge.net/apps/trac/svxlink/)
+3. SVXLink ready to run and configured
 
-Install all requirements except svxlink on Ubuntu / Debian
+Install all requirements except SVXLink on Ubuntu / Debian
 ----------------------------------------------------------
 
 ::
